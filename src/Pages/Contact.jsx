@@ -83,21 +83,21 @@ export default function Contact() {
             </p>
             <div className="mb-4">
               <h3 className="text-lg font-bold text-gray-700">Office Address:</h3>
-              <p className="text-gray-600">No 23, Suite 456 Ajibola Plaza, Ogun State Nigeria.</p>
+              <p className="text-gray-600">Link 2 Diya Zaramaganda Jos Palteau State Nigeria.</p>
             </div>
             <div className="mb-4">
               <h3 className="text-lg font-bold text-gray-700">Phone Number:</h3>
-              <p className="text-gray-600">+ 234 (0) 810-855-9719</p>
-              <p className="text-gray-600">+ 234 (0) 912-903-6128</p>
+              <p className="text-gray-600">+ 234 (0) 816-944-4525</p>
+              <p className="text-gray-600">+ 234 (0) 805-953-0002</p>
             </div>
             <div className="mb-4">
               <h3 className="text-lg font-bold text-gray-700">Email:</h3>
-              <p className="text-gray-600"> prestigeproperty@gmail.com</p>
+              <p className="text-gray-600"> morrisdadsonmosg@gmail.com</p>
             </div>
             <div className="mb-4">
               <h3 className="text-lg font-bold text-gray-700">Working Hours:</h3>
-              <p className="text-gray-600">Mon - Sat: 9:00 AM - 6:00 PM</p>
-              <p className="text-gray-600">Sun:  10am - 6:00 PM</p>
+              <p className="text-gray-600">Mon - Sat: 8:00 AM - 5:30PM</p>
+              <p className="text-gray-600">Sun:  Closed</p>
             </div>
           </div>
         </div>

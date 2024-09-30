@@ -47,25 +47,25 @@ export default function Navbar() {
           {/* Desktop Menu */}
           <ul class="hidden lg:flex space-x-5">
            <NavLink to="/">
-              <li class="font-mono font-semibold tracking-wider hover:text-gray-500">
+              <li class=" text-gray-500font-mono font-semibold tracking-wider hover:text-gray-500">
                 HOME
               </li>
             </NavLink>
 
             <NavLink to="/about">
-              <li class=" font-mono font-semibold tracking-wider hover:text-gray-500">
+              <li class=" text-gray-500 font-mono font-semibold tracking-wider hover:text-gray-500">
                 ABOUT
               </li>
             </NavLink>
 
             <NavLink to="/services">
-              <li class=" font-mono font-semibold tracking-wider hover:text-gray-500">
+              <li class=" text-gray-500 font-mono font-semibold tracking-wider hover:text-gray-500">
                 SERVICE
               </li>
             </NavLink>
 
             <NavLink to="/contact">
-              <li class=" font-mono font-semibold tracking-wider hover:text-gray-500">
+              <li class=" text-gray-500 font-mono font-semibold tracking-wider hover:text-gray-500">
                 CONTACT
               </li>
             </NavLink>
@@ -73,17 +73,17 @@ export default function Navbar() {
 
           <div class="hidden lg:flex space-x-4">
             <a
-              href="https://wa.link/q28ste"
-              class=" font-semibold px-4 py-2 border-gray-400 border-2 rounded-md hover:bg-gray-200"
+              href="https://wa.link/iswizo"
+              class=" text-gray-500 font-semibold px-4 py-2 border-gray-400 border-2 rounded-md hover:bg-gray-200"
             >
               <button class=""> CHAT NOW</button>
             </a>
             
             <a
-              href="https://wa.link/vpgifv"
-              class=" font-semibold bg-yellow-400 px-4 py-2 text-white rounded-md hover:bg-yellow-300 hover:text-black"
+              href="https://wa.link/ib7s1d"
+              class=" font-semibold bg-blue-950 px-4 py-2 text-white rounded-md hover:bg-blue-100 hover:text-black"
             >
-              <button class="">INSPECT NOW</button>
+              <button>INSPECT NOW</button>
             </a>
           </div>
         </div>

@@ -8,7 +8,7 @@ import { FaBoreHole} from "react-icons/fa6";
 const Newhomes = () => {
   const [searchTerm, setSearchTerm] = useState("");
   const [currentPage, setCurrentPage] = useState(1); // Track the current page
-  const itemsPerPage = 8; // Define how many items you want per page
+  const itemsPerPage = 4; // Define how many items you want per page
 
   // Function to handle search
   const handleSearch = (e) => {
@@ -85,7 +85,7 @@ const Newhomes = () => {
                 </span>
 
                 
-                <span
+                {/* <span
                   className="flex justify-evenly text-gray-500 bg-slate-100
                      mb-1 p-2 rounded-md"
                 >
@@ -97,7 +97,7 @@ const Newhomes = () => {
                   >
                     {home.water}
                   </span>
-                </span>
+                </span> */}
 
                 <span
                   className="flex justify-evenly text-gray-500 bg-slate-100
@@ -113,7 +113,7 @@ const Newhomes = () => {
                   </span>
                 </span>
 
-                <span
+                {/* <span
                   className="flex justify-evenly text-gray-500 bg-slate-100
                     p-2 mb-1  rounded-md"
                 >
@@ -125,9 +125,9 @@ const Newhomes = () => {
                   >
                     {home.road}
                   </span>
-                </span>
+                </span> */}
 
-                <span
+                {/* <span
                   className="flex justify-evenly text-gray-500 bg-slate-100
                     p-2 mb-1  rounded-md"
                 >
@@ -139,7 +139,7 @@ const Newhomes = () => {
                   >
                     {home.compound}
                   </span>
-                </span>
+                </span> */}
 
               </div>
               <div
@@ -153,7 +153,7 @@ const Newhomes = () => {
                 <button className="lg:mt-2 ">
                   <a
                     href="https://wa.link/q28ste"
-                    className="border-2 text-black py-2 px-6 rounded-md lg:mt-8 hover:bg-gray-100 lg:mr-4"
+                    className="border-2 text-gray-500 py-2 px-6 rounded-md lg:mt-8 hover:bg-gray-100 lg:mr-4"
                   >
                     Know more
                   </a>
@@ -162,13 +162,13 @@ const Newhomes = () => {
                 <button className=" ">
                   <a
                     href="https://wa.link/vpgifv"
-                    className="bg-black text-white py-2 px-6 rounded-md hover:text-black hover:bg-gray-100"
+                    className="bg-blue-950 text-white py-2 px-6 rounded-md hover:text-black hover:bg-blue-100"
                   >
                     Intrested
                   </a>
                 </button>
               </div>
-              <p className="bg-red-500 text-white font-bold tracking-wide text-lg text-center  ">{home.state}</p>
+              {/* <p className="bg-red-500 text-white font-bold tracking-wide text-lg text-center  ">{home.state}</p> */}
 
             </div>
           ))
@@ -183,9 +183,9 @@ const Newhomes = () => {
                 href="https://wa.link/c4pgr9"
                 className="
                     
-                    bg-black text-white py-2 px-12
+                    bg-blue-950 text-white py-2 px-12
                     rounded-md hover:text-black
-                     hover:bg-gray-200"
+                     hover:bg-blue-100 "
               >
                 Chat Now
               </a>
@@ -202,8 +202,8 @@ const Newhomes = () => {
             disabled={currentPage === 1}
             className={`px-2 py-1 rounded-lg ${
               currentPage === 1
-                ? "bg-gray-300"
-                : "bg-black text-white hover:bg-black"
+                ? "bg-gray-200"
+                : "bg-blue-950 text-white hover:bg-blue-100 hover:text-black"
             } transition-colors`}
           >
             PREV
@@ -220,7 +220,7 @@ const Newhomes = () => {
             className={`px-2 py-1 rounded-lg ${
               currentPage === totalPages
                 ? "bg-gray-300"
-                : "bg-black text-white hover:bg-black"
+                : "bg-blue-950 text-white hover:bg-blue-100 hover:text-black"
             } transition-colors`}
           >
             NEXT

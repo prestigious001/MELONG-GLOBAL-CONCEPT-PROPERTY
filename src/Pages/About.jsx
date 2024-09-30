@@ -9,7 +9,7 @@ export default function About() {
         <div className="text-center">
           <h1 className="text-4xl  font-bold text-gray-800 mb-4  animate__animated animate__bounce">ABOUT US</h1>
           <p className="text-lg text-gray-600 mb-8">
-            Welcome to <span className="font-semibold  text-black">Prestige Property</span>, where we help you find your dream house, land, or rental property with ease.
+            Welcome to <span className="font-semibold  text-black">Menlong Global Concept Property</span>, where we help you find your dream house, land, or rental property with ease.
           </p>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">

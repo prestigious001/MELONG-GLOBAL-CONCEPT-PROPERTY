@@ -5,7 +5,7 @@ import { FaBuilding, FaFile, FaRoad } from "react-icons/fa";
 const Newlands = () => {
   const [searchTerm, setSearchTerm] = useState('');
   const [currentPage, setCurrentPage] = useState(1); // Track the current page
-  const itemsPerPage = 4; // Define how many items you want per page
+  const itemsPerPage = 2; // Define how many items you want per page
 
   // Function to handle search
   const handleSearch = (e) => {
@@ -83,7 +83,7 @@ const Newlands = () => {
                     {land.doc}
                   </span>
                 </span> */}
-
+{/* 
                 
                 <span
                   className="flex justify-evenly text-gray-500 bg-slate-100
@@ -97,7 +97,7 @@ const Newlands = () => {
                   >
                     {land.paper}
                   </span>
-                </span>
+                </span> */}
 
                 <span
                   className="flex justify-evenly text-gray-500 bg-slate-100
@@ -162,13 +162,13 @@ const Newlands = () => {
                 <button className=" ">
                   <a
                     href="https://wa.link/vpgifv"
-                    className="bg-black text-white py-2 px-6 rounded-md hover:text-black hover:bg-gray-100"
+                    className="bg-blue-950 text-white py-2 px-6 rounded-md hover:text-black hover:bg-blue-100"
                   >
                     Intrested
                   </a>
                 </button>
               </div>
-              <p className="bg-red-500 text-white font-bold tracking-wide text-lg text-center  ">{land.state}</p>
+              {/* <p className="bg-red-500 text-white font-bold tracking-wide text-lg text-center  ">{land.state}</p> */}
 
             </div>
           ))
@@ -183,9 +183,9 @@ const Newlands = () => {
                     href="https://wa.link/q28ste"
                     className="
                     
-                    bg-black text-white py-2 px-12
+                    bg-blue-950 text-white py-2 px-12
                     rounded-md hover:text-black
-                     hover:bg-gray-200"
+                     hover:bg-blue-100 "
                   >
                     Chat Now 
                   </a>
@@ -200,7 +200,7 @@ const Newlands = () => {
           <button
             onClick={() => handlePageChange('prev')}
             disabled={currentPage === 1}
-            className={`px-2 py-1 rounded-lg ${currentPage === 1 ? 'bg-gray-300' : 'bg-black text-white hover:bg-black'} transition-colors`}
+            className={`px-2 py-1 rounded-lg ${currentPage === 1 ? 'bg-gray-300' : 'bg-blue-950 text-white hover:bg-blue-100 hover:text-black'} transition-colors`}
           >
             PREV
           </button>
@@ -212,7 +212,7 @@ const Newlands = () => {
           <button
             onClick={() => handlePageChange('next')}
             disabled={currentPage === totalPages}
-            className={`px-2 py-1 rounded-lg ${currentPage === totalPages ? 'bg-gray-300' : 'bg-black text-white hover:bg-black'} transition-colors`}
+            className={`px-2 py-1 rounded-lg ${currentPage === totalPages ? 'bg-gray-300' : 'bg-blue-950 text-white hover:bg-blue-100 hover:text-black'} transition-colors`}
           >
             NEXT
           </button>

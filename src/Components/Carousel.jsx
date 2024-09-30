@@ -1,7 +1,8 @@
 import React, { useState, useEffect } from 'react';
-import inn from '../Assets/inn.jpg'
+import inn from '../Assets/logo.jpg'
 import man from '../Assets/man.png'
-// import out from '../Assets/ouy.jpg'
+import adhome from '../Assets/adhome.jpg'
+import adhome1 from '../Assets/adhome1.png'
 import land from '../Assets/land.png'
 
 const Carousel = () => {
@@ -9,16 +10,26 @@ const Carousel = () => {
   const slides = [
     { 
       image: inn, 
-      description: 'Welcome to Prestige Homes',
+      description: 'Welcome to Menlong Global Concept Property',
      
     },
+    // { 
+    //   image: man, 
+    //   description: 'Own or Rent a Home with Ease',
+      
+    // },
+    // { 
+    //   image: land, 
+    //   description: 'Get Legitimate Lands & Documents',
+      
+    // },
     { 
-      image: man, 
-      description: 'Own or Rent a Home with Ease',
+      image: adhome, 
+      description: 'Get Legitimate Lands & Documents',
       
     },
     { 
-      image: land, 
+      image: adhome1, 
       description: 'Get Legitimate Lands & Documents',
       
     },
@@ -42,8 +53,8 @@ const Carousel = () => {
     <div className="relative w-full max-w-full mx-auto ">
       <div className="overflow-hidden relative">
         <img src={slides[currentIndex].image} alt={`Slide ${currentIndex + 1}`} className="w-full max-h-[30rem] caro-img" />
-        <div className="absolute bottom-0 left-0 right-0 top-0 bg-black bg-opacity-30 p-4 text-white text-center">
-          <p className="text-lg font-semibold bottom-0 left-0 right-0 md:top-56 top-28  absolute font-mono md:text-4xl">{slides[currentIndex].description} </p> 
+        <div className="absolute bottom-0 left-0 right-0 top-0 bg-black bg-opacity-0 p-4 text-white text-center">
+          {/* <p className="text-lg font-semibold bottom-0 left-0 right-0 md:top-56 top-28  absolute font-mono md:text-4xl">{slides[currentIndex].description} </p>  */}
         </div>
       </div>
       <button 

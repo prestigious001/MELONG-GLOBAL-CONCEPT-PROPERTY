@@ -15,9 +15,11 @@ export default function Services() {
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
         {/* Service 1 */}
         <div className="bg-white shadow-lg p-6 rounded-lg  animate__animated animate__bounce">
-          <h2 className="text-2xl font-semibold text-gray-800 mb-4">Buying a House</h2>
+          <h2 className="text-2xl font-semibold text-gray-800 mb-4">Buying and Rent of Houses</h2>
           <p className="text-gray-600 leading-relaxed">
-            Find your dream house with our expert team guiding you every step of the way. From searching listings to closing the deal, we’ve got you covered.
+            Find your dream house with our expert team guiding
+             you every step of the way. From searching listings 
+             to closing the deal, we’ve got you covered.
           </p>
         </div>
 
@@ -31,9 +33,11 @@ export default function Services() {
 
         {/* Service 3 */}
         <div className="bg-white shadow-lg p-6 rounded-lg  animate__animated animate__bounce">
-          <h2 className="text-2xl font-semibold text-gray-800 mb-4">Renting a House</h2>
+          <h2 className="text-2xl font-semibold text-gray-800 mb-4">Building of Houses</h2>
           <p className="text-gray-600 leading-relaxed">
-            Whether you’re looking for a rental or leasing out your property, we offer a range of rental services tailored to your needs.
+            Whether you want to build any type  
+            property, we offer one of the best at the moment ,
+            services tailored to your needs.
           </p>
         </div>
 

@@ -3,6 +3,7 @@ import Carousel from "../Components/Carousel";
 import Avahomes from "../Components/Avahomes";
 import Avalands from "../Components/Avalands";
 import Footer from "../Components/Footer";
+import Counter from "../Components/Counter";
 // import Newhomes from "../Components/Newhomes";
 
 export default function Home() {
@@ -19,6 +20,7 @@ export default function Home() {
           href="https://wa.link/q28ste"
           class=" font-semibold px-4 md:px-36 py-2
            border-gray-400 border-2 rounded-md
+           text-gray-500
             hover:bg-gray-200
             animate__heartBeat 
             "
@@ -27,8 +29,8 @@ export default function Home() {
         </a>
         <a
           href="https://wa.link/vpgifv"
-          class=" bg-yellow-400 font-semibold px-4 md:px-36 py-2
-           text-white rounded-md hover:bg-yellow-300
+          class=" bg-blue-950 font-semibold px-4 md:px-36 py-2
+           text-white rounded-md hover:bg-blue-100
             hover:text-black
             animate__heartBeat
             "
@@ -37,8 +39,10 @@ export default function Home() {
         </a>
       </div>
 
+      <Counter />
+
       <div className="home-tag mt-8 md:mt-16  ">
-        <h1 class="text-center   animate__animated animate__bounce ">AVAILABLE PROPERTIES</h1>
+        <h1 class="text-center text-gray-500  animate__animated animate__bounce ">AVAILABLE PROPERTIES</h1>
         <h1 class="text-center font-mono font-bold md:text-3xl mb-6 ">
           {" "}
           | HOMES | LOCATION | SPECS |
@@ -48,7 +52,7 @@ export default function Home() {
       <Avahomes />
 
       <div className="home-tag mt-8 md:mt-16">
-        <h1 class="text-center font-mono  animate__animated animate__bounce ">AVAILABLE PROPERTIES</h1>
+        <h1 class="text-center font-mono text-gray-600 animate__animated animate__bounce ">AVAILABLE PROPERTIES</h1>
         <h1 class="text-center  font-bold md:text-3xl mb-6 ">
           {" "}
           | LANDS | LOCATION | SPECS |
@@ -79,13 +83,13 @@ export default function Home() {
       <div class="mt-6 flex justify-center space-x-4  md:space-x-12">
         <a
           href="https://wa.link/q28ste"
-          class="font-mono font-semibold px-4 md:px-36 py-2 border-gray-400 border-2 rounded-md hover:bg-gray-200"
+          class="font-mono font-semibold px-4 md:px-36 py-2 text-gray-700 border-gray-400 border-2 rounded-md hover:bg-gray-200"
         >
           <button class="">CHAT NOW</button>
         </a>
         <a
           href="https://wa.link/vpgifv"
-          class=" bg-yellow-400 font-semibold px-4 md:px-36 py-2 text-white rounded-md hover:bg-yellow-300 hover:text-black"
+          class=" bg-blue-950 font-semibold px-4 md:px-36 py-2 text-white rounded-md hover:bg-blue-100 hover:text-black"
         >
           <button class="">INSPECT NOW</button>
         </a>

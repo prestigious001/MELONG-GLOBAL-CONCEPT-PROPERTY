@@ -14,8 +14,8 @@ export default function Footer() {
 
         <div className="email ">
           <p className=" flex justify-center font-semibold ">
-            <span className=" "><FaEnvelope className="mt-2 mr-2"/> </span>
-               prestigeproperty@gmail.com
+            <span className=" "><FaEnvelope className="mt-1 mr-2"/> </span>
+              morrisdadsonmosg@gmail.com
           </p>
         </div>
 
@@ -48,7 +48,7 @@ export default function Footer() {
           </ul>
         </div>
       </div>
-      <p className="bg-slate-100 p-2 flex justify-center">all rights menlong global concept property © 2024</p>
+      <p className="bg-slate-100 p-2 flex justify-center">all rights menlong global property © 2024</p>
     </div>
   );
 }

@@ -7,10 +7,10 @@ import land1 from '../Assets/land1.png'
     { 
       id:1,
       image: land, 
-      location:'11 Plots of Land | Idimu ota | N800K/plot',
-      description: 'This Land is currently at promo price grap a plot now all did on works done',
+      location:'Plots for Sell | Gurra top | ',
+      description: 'Having an Uncompleted building on it',
       paper: 'S o S',
-      env: 'commercial',
+      env: 'residential',
       // water: 'borehole',
       road: 'close to the main road',
       // state: 'SOLD OUT'
@@ -29,44 +29,44 @@ import land1 from '../Assets/land1.png'
       // state: 'SOLD OUT'
       
     },
-    { 
-      id:3,
-      image: land, 
-      description: 'This one plot is beside the teaching hospital and has development arround',
-      location:'1 Plot  | Gbajumo road | N2.5M',
-      paper: 'C of O',
-      env: 'residential',
-      // water: 'borehole',
-      road: 'directly the main road',
-      // state: 'SOLD OUT'
+    // { 
+    //   id:3,
+    //   image: land, 
+    //   description: 'This one plot is beside the teaching hospital and has development arround',
+    //   location:'1 Plot  | Gbajumo road | N2.5M',
+    //   paper: 'C of O',
+    //   env: 'residential',
+    //   // water: 'borehole',
+    //   road: 'directly the main road',
+    //   // state: 'SOLD OUT'
       
-    },
+    // },
 
-    { 
-      id:4,
-      image: land1, 
-      description: 'Urgent ! grap this at distress price all documents available',
-      location:'2 acres | Hanubi road | N300K/plot',
-      paper: 'ApT',
-      env: 'commercial',
-      // water: 'borehole',
-      road: 'along the main road',
-      state: 'DISTRESS SALE'
+    // { 
+    //   id:4,
+    //   image: land1, 
+    //   description: 'Urgent ! grap this at distress price all documents available',
+    //   location:'2 acres | Hanubi road | N300K/plot',
+    //   paper: 'ApT',
+    //   env: 'commercial',
+    //   // water: 'borehole',
+    //   road: 'along the main road',
+    //   state: 'DISTRESS SALE'
       
 
-    },
+    // },
 
-    { 
-      id:5,
-      image: land, 
-      description: 'Get Legitimate Lands & Documents',
-      location:'2 Plots | kaliku estate | N2M/plot',
-      paper: 'G OO',
-      env: 'residencial',
-      // water: 'borehole',
-      road: 'close to the main road',
-      // state: 'SOLD OUT'
-    },
+    // { 
+    //   id:5,
+    //   image: land, 
+    //   description: 'Get Legitimate Lands & Documents',
+    //   location:'2 Plots | kaliku estate | N2M/plot',
+    //   paper: 'G OO',
+    //   env: 'residencial',
+    //   // water: 'borehole',
+    //   road: 'close to the main road',
+    //   // state: 'SOLD OUT'
+    // },
   ];
 
 
