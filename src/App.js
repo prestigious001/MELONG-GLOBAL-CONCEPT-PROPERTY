@@ -10,7 +10,7 @@ import Contact from './Pages/Contact';
 function App() {
   return (
     
-    <div className='overflow-hidden bg-slate-5'>
+    <div className='overflow-hidden bg-slate-10'>
     
         <Router>
           <Navbar />
