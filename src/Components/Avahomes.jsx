@@ -152,7 +152,7 @@ const Newhomes = () => {
               >
                 <button className="lg:mt-2 ">
                   <a
-                    href="https://wa.link/q28ste"
+                    href="https://wa.link/q76mdk"
                     className="border-2 text-gray-500 py-2 px-6 rounded-md lg:mt-8 hover:bg-gray-100 lg:mr-4"
                   >
                     Know more
