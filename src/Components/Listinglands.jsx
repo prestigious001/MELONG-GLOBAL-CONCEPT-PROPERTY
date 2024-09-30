@@ -23,7 +23,7 @@ import land1 from '../Assets/land1.png'
       description: 'This Property has an uncompleted 2 bed room with  extra land',
       location:'5 Plots and an Uncompleted Building | Ebimikolo road | N12M',
       paper: 'C of D',
-      env: 'Residencial',
+      env: 'residential',
       // water: 'borehole',
       road: 'good road',
       // state: 'SOLD OUT'

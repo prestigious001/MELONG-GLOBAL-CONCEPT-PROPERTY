@@ -161,7 +161,7 @@ const Newhomes = () => {
 
                 <button className=" ">
                   <a
-                    href="https://wa.link/vpgifv"
+                    href="https://wa.link/q76mdk"
                     className="bg-blue-950 text-white py-2 px-6 rounded-md hover:text-black hover:bg-blue-100"
                   >
                     Intrested
@@ -180,7 +180,7 @@ const Newhomes = () => {
             </span>
             <button className=" mt-4">
               <a
-                href="https://wa.link/c4pgr9"
+                href="https://wa.link/q76mdk"
                 className="
                     
                     bg-blue-950 text-white py-2 px-12

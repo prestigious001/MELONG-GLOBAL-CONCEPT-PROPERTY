@@ -44,7 +44,7 @@ export default function About() {
           </p>
           <a
             href="https://wa.link/vpgifv"
-            className="inline-block bg-black text-white font-semibold py-2 px-6 rounded hover:bg-gray-600 transition animate__heartBeat "
+            className="inline-block bg-blue-950 text-white font-semibold py-2 px-6 rounded hover:bg-blue-100 hover:text-black transition animate__heartBeat "
           >
             Contact Us
           </a>

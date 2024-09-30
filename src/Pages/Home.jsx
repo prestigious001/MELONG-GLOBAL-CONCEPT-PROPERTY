@@ -17,7 +17,7 @@ export default function Home() {
 
       <div class="mt-6 flex justify-center space-x-4  md:space-x-12">
         <a
-          href="https://wa.link/q28ste"
+          href="https://wa.link/q76mdk"
           class=" font-semibold px-4 md:px-36 py-2
            border-gray-400 border-2 rounded-md
            text-gray-500
@@ -28,7 +28,7 @@ export default function Home() {
           <button class="">CHAT NOW</button>
         </a>
         <a
-          href="https://wa.link/vpgifv"
+          href="https://wa.link/q76mdk"
           class=" bg-blue-950 font-semibold px-4 md:px-36 py-2
            text-white rounded-md hover:bg-blue-100
             hover:text-black
@@ -82,13 +82,13 @@ export default function Home() {
 
       <div class="mt-6 flex justify-center space-x-4  md:space-x-12">
         <a
-          href="https://wa.link/q28ste"
+          href="https://wa.link/q76mdk"
           class="font-mono font-semibold px-4 md:px-36 py-2 text-gray-700 border-gray-400 border-2 rounded-md hover:bg-gray-200"
         >
           <button class="">CHAT NOW</button>
         </a>
         <a
-          href="https://wa.link/vpgifv"
+          href="https://wa.link/q76mdk"
           class=" bg-blue-950 font-semibold px-4 md:px-36 py-2 text-white rounded-md hover:bg-blue-100 hover:text-black"
         >
           <button class="">INSPECT NOW</button>

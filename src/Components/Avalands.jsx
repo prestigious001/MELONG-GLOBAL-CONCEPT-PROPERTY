@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import  Listinglands  from "./Listinglands";
-import { FaBuilding, FaFile, FaRoad } from "react-icons/fa";
+import { FaBuilding, FaRoad } from "react-icons/fa";
 
 const Newlands = () => {
   const [searchTerm, setSearchTerm] = useState('');
@@ -152,7 +152,7 @@ const Newlands = () => {
               >
                 <button className="lg:mt-2 ">
                   <a
-                    href="https://wa.link/c4pgr9"
+                    href="https://wa.link/q76mdk"
                     className="border-2 text-black py-2 px-6 rounded-md lg:mt-8 hover:bg-gray-100 lg:mr-4"
                   >
                     Know more
@@ -161,7 +161,7 @@ const Newlands = () => {
 
                 <button className=" ">
                   <a
-                    href="https://wa.link/vpgifv"
+                    href="https://wa.link/q76mdk"
                     className="bg-blue-950 text-white py-2 px-6 rounded-md hover:text-black hover:bg-blue-100"
                   >
                     Intrested
@@ -180,7 +180,7 @@ const Newlands = () => {
             </span>
              <button className=" mt-4">
                   <a
-                    href="https://wa.link/q28ste"
+                    href="https://wa.link/q76mdk"
                     className="
                     
                     bg-blue-950 text-white py-2 px-12
