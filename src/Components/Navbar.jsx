@@ -14,8 +14,14 @@ export default function Navbar() {
       <nav className="bg-black md:bg-gray-100 p-4">
         <div className="flex items-center justify-between">
           <div className="text-white text-xl font-bold">
-            <img src={logo} class="h-14 cursor-pointer hidden md:flex" alt="logo" />
-            <img src={logo1} class="h-14 cursor-pointer md:hidden" alt="logo" />
+           
+            <a href="/">
+             <img src={logo} class="h-14 cursor-pointer hidden md:flex" alt="logo" />
+            </a>
+            <a href="/">
+             <img src={logo1} class="h-14 cursor-pointer md:hidden" alt="logo" />
+            </a>
+           
           </div>
 
           {/* Hamburger Icon */}

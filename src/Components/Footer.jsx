@@ -13,7 +13,7 @@ export default function Footer() {
         </div>
 
         <div className="email ">
-          <p className=" flex justify-center font-semibold ">
+          <p className=" flex justify-center cursor-pointer ">
             <span className=" "><FaEnvelope className="mt-1 mr-2"/> </span>
               morrisdadsonmosg@gmail.com
           </p>

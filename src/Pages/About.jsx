@@ -43,7 +43,7 @@ export default function About() {
             Whether you're looking to buy, sell, or rent, we are here to assist you every step of the way.
           </p>
           <a
-            href="https://wa.link/vpgifv"
+            href="https://wa.link/q76mdk"
             className="inline-block bg-blue-950 text-white font-semibold py-2 px-6 rounded hover:bg-blue-100 hover:text-black transition animate__heartBeat "
           >
             Contact Us

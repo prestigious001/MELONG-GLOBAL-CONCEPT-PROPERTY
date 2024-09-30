@@ -58,16 +58,13 @@ export default function Contact() {
                   placeholder="Your Message"
                 ></textarea>
               </div>
-              <a href="https://wa.link/vpgifv">
+              <a href="https://wa.link/q76mdk">
               <button
                 type="submit"
                 className="w-full bg-black text-white font-semibold 
                 py-3 px-6 rounded-lg hover:bg-gray-700 transition
-                hidden
                 "
               >
-                
-
                 Send Message
               </button>
               </a>

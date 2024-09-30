@@ -72,7 +72,7 @@ export default function Services() {
           Get in touch with us today and let’s turn your real estate dreams into reality.
         </p>
         <a
-          href="https://wa.link/vpgifv"
+          href="https://wa.link/q76mdk"
           className="inline-block bg-blue-950 text-white font-semibold py-2 px-6 rounded hover:bg-blue-100 hover:text-black transition animate__heartBeat "
         >
           Contact Us
